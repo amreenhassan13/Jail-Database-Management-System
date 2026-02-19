@@ -1,28 +1,28 @@
 # Jail-Database-Management-System
 Jail Database Management System
-# 🏛️ JAIL DBMS – Jail Database Management System
+# JAIL DBMS – Jail Database Management System
 
 
 A secure, role-based Jail Database Management System (JDMS) designed to digitize correctional facility operations, streamline administration, and improve transparency between prison administrators and inmates.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The **Jail Database Management System (JDMS)** modernizes traditional manual record-keeping systems in correctional facilities by introducing:
 
-- 🔐 Secure Role-Based Authentication  
-- 📊 Admin Management Dashboard  
-- 👤 Prisoner Portal  
-- 🗂️ Structured Database with 3NF Normalization  
-- 🛡️ SQL Injection Protection using Prepared Statements  
-- ⚙️ Real-time Data Synchronization  
+-  Secure Role-Based Authentication  
+-  Admin Management Dashboard  
+-  Prisoner Portal  
+-  Structured Database with 3NF Normalization  
+-  SQL Injection Protection using Prepared Statements  
+-  Real-time Data Synchronization  
 
 The system ensures **data integrity**, **security**, and **efficient administrative workflows**.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Replace manual jail record systems with a digital DBMS
 - Ensure secure access for Admin and Prisoner roles
@@ -32,28 +32,18 @@ The system ensures **data integrity**, **security**, and **efficient administrat
 
 ---
 
-## 👥 Team Members & Contributions
-
-| ID | Name | Contributions |
-|----|------|--------------|
-| 22341009 | Mujahidul Haque Jihad | Database creation, `db.php` connection, Prisoner dashboard, Prisoner profile, Edit prisoner |
-| 23301039 | Ahmed Rakin | Login system, Logout function, Prisoner Parole module |
-| 20201211 | Amreen Hassan | Admin Dashboard, Add Prisoner, Evaluate Prisoner |
-
----
-
-## 🧩 System Architecture
+##  System Architecture
 
 The system follows a **Dual-Interface Architecture**:
 
-### 🔹 Admin Interface
+###  Admin Interface
 - Manage prisoner records
 - Assign duties
 - Evaluate behavior
 - Make parole decisions
 - Monitor system activity
 
-### 🔹 Prisoner Portal
+###  Prisoner Portal
 - View sentence details
 - Request duty assignments
 - View parole status
@@ -61,11 +51,11 @@ The system follows a **Dual-Interface Architecture**:
 
 ---
 
-## 🗄️ Database Design
+##  Database Design
 
 The database schema is normalized up to **Third Normal Form (3NF)**.
 
-### 📂 Core Tables
+###  Core Tables
 
 - `Prisoner`
 - `Security_Level`
@@ -84,17 +74,17 @@ The database schema is normalized up to **Third Normal Form (3NF)**.
 - `Crime_Type`
 - `Severity_Type`
 
-### 🧱 Normalization
+###  Normalization
 
-- ✅ **1NF:** No repeating groups; atomic attributes  
-- ✅ **2NF:** No partial dependencies  
-- ✅ **3NF:** No transitive dependencies  
+-  **1NF:** No repeating groups; atomic attributes  
+-  **2NF:** No partial dependencies  
+-  **3NF:** No transitive dependencies  
 
 The schema ensures minimal redundancy and strong relational integrity.
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - HTML5
@@ -113,7 +103,7 @@ The schema ensures minimal redundancy and strong relational integrity.
 
 ---
 
-## 🔐 Authentication Flow
+##  Authentication Flow
 
 1. User logs in through `login.php`
 2. Credentials validated against `User_Account` table
@@ -125,16 +115,16 @@ The schema ensures minimal redundancy and strong relational integrity.
 
 ---
 
-## 📊 Features Breakdown
+##  Features Breakdown
 
-### 👮 Admin Features
+###  Admin Features
 - Add new prisoner
 - Evaluate prisoner performance
 - Assign duty
 - Manage parole decisions
 - View prisoner records
 
-### 👤 Prisoner Features
+###  Prisoner Features
 - View sentence details
 - Request duty assignments
 - Track parole eligibility
@@ -142,7 +132,7 @@ The schema ensures minimal redundancy and strong relational integrity.
 
 ---
 
-## 🗃️ ER & Schema Design
+##  ER & Schema Design
 
 - Designed using ER/EER modeling principles
 - Implemented relational schema with foreign key constraints
@@ -150,15 +140,15 @@ The schema ensures minimal redundancy and strong relational integrity.
 
 ---
 
-## ⚙️ Installation Guide
+##  Installation Guide
 
-### 🔹 Requirements
+###  Requirements
 - XAMPP / WAMP
 - PHP 7+
 - MySQL
 - Web Browser
 
-### 🔹 Setup Steps
+###  Setup Steps
 
 1. Clone the repository:
 
